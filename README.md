@@ -57,6 +57,8 @@ def isEvenInduction(num):
 
 ## The Last Character Way:
 
+This one will actually work with negative numbers!
+
 ```python
 def isEven(num):
   possible_endings = ['0','2','4','6','8']
