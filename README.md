@@ -81,3 +81,22 @@ def isEven(num):
   else:
     return isEven(int(num)-2)
 ```
+
+## The Dictionary Way
+
+Its *technically* O(1), you may or may not smell your RAM
+
+```python
+# Preprocessing the Dictionary
+def pre_process_dict():
+  even_dict = {}
+  for i in range(0,sys.maxsize-1,2):
+    even_dict[i] = True
+    even_dict[i+1] = False
+  
+  return even_dict
+
+# Is Even with the Dict, O(1) average
+def isEven(num,even_dict):
+  return even_dict[int(num)]
+```
