@@ -54,3 +54,14 @@ def isEvenInduction(num):
   result = map(isEvenBigBrain, nums)
   return all(result) and num in nums
 ```
+
+## The Last Character Way:
+
+```python
+def isEven(num):
+  possible_endings = ['0','2','4','6','8']
+  last_char = str(num)[-1]
+  if last_char in possible_endings:
+    return True
+  return False
+```
