@@ -67,3 +67,17 @@ def isEven(num):
     return True
   return False
 ```
+
+## Recursive way
+
+Recursion depth is merely recommendation.
+
+```python
+def isEven(num):
+  if (num == 0):
+    return True
+  elif (num == 1):
+    return False
+  else:
+    return isEven(int(num)-2)
+```
