@@ -37,7 +37,7 @@ def isEven(num):
 Mathematically proven
 
 ```python
-def isEvenMuchBiggerBrain(num):
+def isEven(num):
   '''
   Suppose x is an even number. This means we can write x = 2k for some integer k.
   '''
@@ -46,7 +46,7 @@ def isEvenMuchBiggerBrain(num):
       return True
   return False
 
-def isEvenBiggestBrain(num):
+def isEvenInduction(num):
   '''
   Proof by induction
   '''
