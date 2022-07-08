@@ -20,9 +20,9 @@ def isEven(num):
   return int(num / 2) == num / 2
 ```
 
-## The Recursive way
+## The Loop way
 
-Its recursion hence it must be good. Right?
+Just leave it, and grab a cup of tea
 
 ```python
 def isEven(num):
@@ -34,7 +34,7 @@ def isEven(num):
 
 ## The Mathematical Way
 
-Mathematically proven
+Proved by induction, hence it makes it smarter
 
 ```python
 def isEven(num):
