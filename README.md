@@ -100,3 +100,19 @@ def pre_process_dict():
 def isEven(num,even_dict):
   return even_dict[int(num)]
 ```
+
+## The Outsourced way:
+
+No, how abou figure it out for yourself
+
+```python
+def isEven(num):
+    while (True):
+        res = input(f"Is this {num} an even number? (y/n): ")
+        if (res == 'y' and (int(num) % 2 == 0)):
+            return True
+        elif (res == 'n' and not (int(num) % 2 == 0)):
+            return False
+        else:
+            print("Are you sure?")
+```
