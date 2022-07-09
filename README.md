@@ -103,7 +103,7 @@ def isEven(num,even_dict):
 
 ## The Outsourced way:
 
-No, how abou figure it out for yourself
+No, how about figure it out for yourself
 
 ```python
 def isEven(num):
